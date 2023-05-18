@@ -7,11 +7,14 @@
     <title>Document</title>
     <!-- internal -->
     <style>
-        p{
+        *{
+            color: red;
+        }
+        /* p{
             color: green;
             font-size: 25px;
             background-color: lightcoral;
-        }
+        } */
         img{
             height: 200px;
             border-width: 5px  ;
@@ -24,30 +27,46 @@
             outline: 5px solid black;
             outline-offset: 10px;
         }
-        h1{
+        h1,h2,h3,h4{
             color: red;
         }
-        body{
+        /* body{  */
             /* background-color: aqua; */
             /* background-image: url(iamges/download.jpeg);
             background-repeat:no-repeat;
             background-position: right top;
             background-size: cover; */
             /* important cover size */
-            background-image:linear-gradient(yellow, green, blue);
-            
-        }
-
+             /* background-image:linear-gradient(yellow, green, blue);  */
+         /* } */
+.myclass{
+    color: red;
+    font-size: 24px;
+}
+.class2{
+    background-color: green;
+    font-size: 30px;
+}
+#myid{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: green;
+}
     </style>
 </head>
 <body >
     <h1>hello</h1>
+    <h2>hii bro</h2>
     <!-- inline 
     internal
      external -->
-     <p>this my paragraph</p>
-     <p>this my paragraph</p>
+     <p >this my paragraph</p>
+     <p class="myclass" id="myid">this my paragraph</p>
+     <p class="myclass class2">this my paragraph</p>
+     <p class="class2">this my paragraph</p>
+     <p class="class2">this my paragraph</p>
+     <p class="class2">this my paragraph</p>
      <p style="color: white;">this my paragraph</p>
+     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos rem quidem placeat maiores accusamus eveniet quam omnis exercitationem perspiciatis autem ratione cupiditate optio, similique quibusdam sed adipisci animi nostrum magni.</p>
      <img src="iamges/download (1).jpeg" alt="">
 </body>
 </html>
