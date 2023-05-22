@@ -17,13 +17,13 @@
             margin: 10px 100px ;
             width: 500px;
         }
-        input{
+        /* input{
             height: 30px;
-            width: 200px;
-            border-radius: 5px;
-            float: right;
+            /* width: 200px; */
+            /* border-radius: 5px; */
+            /* float: right; */
             
-        }
+        /* } */ */
         .button{
             background-color: rgb(230, 245, 230);
             height: 40px;
@@ -71,8 +71,45 @@
    <label for="Github">Enter your Github URL :</label>
    <input type="url" id="Github"><br><br>
 
+   <p>Selsct your Gender</p>
+   <input type="radio" d="male" name="gender"><label for="male">Male</label>
+<input type="radio" d="Female" name="gender"><label for="female">Female</label>
+<br><br>
+<!-- radio -->
+<p>Please select your car</p>
+<input type="radio" id="mahindra" name="car"><label for="mahindra" >Mahindra</label>
+<input type="radio" id="kia"  name="car"><label for="kia" >Kia</label>
+<input type="radio" id="maruti"  name="car"><label for="maruti">Maruti</label>
+<input type="radio" id="tata"  name="car"><label for="tata">Tata</label>
+<br><br>
 
-   <input type="reset" class="button"><br><br>
+<!-- checkbox -->
+<p>Please select your car</p>
+<input type="checkbox"  id="mahindra" ><label for="mahindra" name="car">Mahindra</label>
+<input type="checkbox" id="kia" ><label for="kia" >Kia</label>
+<input type="checkbox" id="maruti"  ><label for="maruti">Maruti</label>
+<input type="checkbox" id="tata"  ><label for="tata">Tata</label>
+<br><br>
+<label for="schoolclass">Please select your class</label>
+<select id="schoolclass">
+    <optgroup label="Class 1">
+    <option >Section A</option>
+    <option >Section B</option>
+    <option >Section C</option></optgroup>
+    <option value="2">Class 2</option>
+    <option disabled >Class 3</option>
+    <option >Class 4</option>
+    <option >Class 5</option> 
+    <option >Class 6</option>
+    <option >Class 7</option>
+</select>
+<br>
+<br>
+<!-- textarea -->
+<label for="query">Please write your Query</label>
+<textarea id="query" rows="10" cols="50" ></textarea>
+
+   <input type="reset" class="button">
    <!-- <input type="image" src="https://freepngimg.com/thumb/submit_button/25395-2-submit-button-thumb.png" width="60px"> -->
     <input type="submit" value="submit" class="button" >
    
