@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stdudent Form
+    </title>
+        <style >
+            body{
+            background-color: azure;
+            }
+            h1{
+                text-align: center;
+                color: red;
+            }
+            form{
+            text-align: center;
+            width: 500px;
+            border-radius: 5px;
+            }
+        </style>
+</head>
+<body >
+    <h1><u>Student Registration Form</u></h1>
+<form>
+    <label for="Studentname">Student Name :</label>
+    <input type="text"  id="Studentname" placeholder="Enter Full name">
+    <br><br>
+    <label for="father'sname">Father's Name :</label>
+    <input type="text"  id="father'sname" placeholder="Enter father name">
+    <br><br>
+    <label for="mother'sname">Mother's Name :</label>
+    <input type="text"  id="mother's name" placeholder="Enter Mother name">
+<br><br>
+   <label for="DOB">Enter your D.O.B. :</label>
+   <input id="DOB" type="date">
+   <br><br>
+   <label for="mail">Email :</label>
+   <input type="email" id="mail">
+   <br><br>
+   <label for="phone"> Phone number:</label>
+   <input type="tel" id="phone" >
+<br><br>
+   <label for="branch">Branch :</label>
+   <select name="choose" id="branch">
+    <option value="computer science">Computer science Engineering</option>
+    <option value="electrical ">Electrical Engineering</option>
+    <option value="mechanical engineering">Mechanical Engineering</option>
+    <option value="civil">civil Engineering</option>
+</select>
+   <p>Select your Gender :</p>
+   <input type="radio" id="male" name="gender"><label for="male">Male</label>
+   <input type="radio" id="Female" name="gender"><label for="female">Female</label>
+   <input type="radio" id="other" name="gender"><label for="other">Other</label>
+   <br>
+   <p>Select your Category :</p>
+   <input type="radio" id="general" name="Category"><label for="general">GENERAL</label>
+   <input type="radio" id="obc" name="Category"><label for="obc">OBC</label>
+   <input type="radio" id="sc" name="Category"><label for="sc">SC</label>
+   <input type="radio" id="st" name="Category"><label for="st">ST</label>
+   <br><br>
+   <label for="address">Address:</label>
+   <textarea name="address" id="address"></textarea>
+   <br><br>
+   <label for="image">Student Image :</label>
+   <input type="file"  id="image"><br><br>
+   <input type="reset" class="button">
+    <input type="submit" value="submit" class="button" >
+   
+</form>
+
+
+</body>
+</html>
