@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css</title>
+    <style>
+        h1{
+            color: aliceblue;
+            text-shadow: 1px 1px 2px red ;
+        }
+        /* div{ */
+            /* background-color: green; */
+            /* height: 200px; */
+            /* width: 200px; */
+            /* transform: translate(20px,50px); */
+            /* box-shadow: 5px 5px 5px lightcoral,10px 10px 5px blue,15px 15px 5px lightcoral; */
+        /* } */
+        .item{
+            background-color: green;
+            /* width: 200px;*/
+            height: 200px; 
+            border: 1px solid black;
+        }
+        .container{
+            display: grid;
+            grid-template-columns: 200px 200px 200px;
+            /* grid-template-rows: 400px 400px; */
+            gap: 10px 5px;
+            /* justify-content: flex-end; */
+        }
+        /* div:hover{ */
+            /* transform: translate(20px,50px); */
+            /* transform: rotate(50deg); */
+            /* transform:scale(0.5,1); */
+         /* } */
+
+            
+    </style>
+</head>
+<body>
+    <!-- shadow effect 
+    horizontal, vertical
+    -->
+    <h1>hello world</h1>
+    
+<div class="container">
+    <!-- <img src="iamges/download.jpeg" width="100%"> -->
+    <div class="item" style="grid-column: 1/4;">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+    <div class="item">4</div>
+    <div class="item">5</div>
+</div>
+</body>
+</html>
